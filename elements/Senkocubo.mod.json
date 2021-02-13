@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "image",
+    "customModelName": "Normal",
+    "name": "Senkocubo",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "onCrafted": {
+      "name": "SenkocuboItemIsCraftedsmelted"
+    },
+    "onItemInUseTick": {
+      "name": "Senkocubospeed"
+    }
+  }
+}

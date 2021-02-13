@@ -176,20 +176,185 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "Senkorelogro",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SenkoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Senkore",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PesadoOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pesado",
+      "type": "potion",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SenkingotItemInHandTick",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Senkingot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Senkocubologro",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SenkocuboItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Senkocubo",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Senkocubospeed",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Senkingotsmelt",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Senkingotblock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Senkocuborecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.dashlands.name": "Dashlands Key",
+      "item.liaxsitaingot.name": "LiAxsitaingot",
+      "item.liaxcubo.name": "Liaxcubo",
+      "advancements.senkocubologro.title": "Senko cubo",
+      "advancements.quevos.descr": "instalaste este mod qqqqq",
+      "advancements.senkorelogro.title": "el ore del dev del mod bruh",
+      "advancements.senkocubologro.descr": "joder si que te has enpeñado en conseguirlo por que es jodido",
+      "potion.effect.pesado": "Pesado",
+      "item.senkocubo.name": "Senkocubo",
+      "effect.pesado": "efecto post paja",
+      "advancements.senkorelogro.descr": "este si que es jodido en encontrar",
       "tile.liaxsitablock.name": "LiAxsita block",
       "advancements.bonjur.descr": "entra en las dash lands",
-      "item.dashlands.name": "Dashlands Key",
       "advancements.quevos.title": "Quevos",
-      "item.liaxcubo.name": "Liaxcubo",
-      "item.liaxsitaingot.name": "LiAxsitaingot",
+      "tipped_arrow.effect.pesado": "Arrow of Pesado",
+      "lingering_potion.effect.pesado": "Lingering Pesado",
       "item.liaxsitapickaxe.name": "LiAxsita pickaxe",
-      "advancements.quevos.descr": "instalaste este mod qqqqq",
+      "tile.senkore.name": "Senkore",
+      "tile.senkingotblock.name": "Senkingotblock",
+      "item.senkingot.name": "Senkingot",
+      "splash_potion.effect.pesado": "Splash Pesado",
       "advancements.bonjur.title": "Vienvenido a las dashlands",
       "advancements.latamout.title": "ESCAPO DE LATINOAMERICA!!!!!",
       "advancements.liaxcubologro.descr": "hiciste el cublo de liax :pes:",

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liaxlogasmp:blocks/senkore",
+    "up": "liaxlogasmp:blocks/senkore",
+    "north": "liaxlogasmp:blocks/senkore",
+    "east": "liaxlogasmp:blocks/senkore",
+    "south": "liaxlogasmp:blocks/senkore",
+    "west": "liaxlogasmp:blocks/senkore",
+    "particle": "liaxlogasmp:blocks/senkore"
+  }
+}

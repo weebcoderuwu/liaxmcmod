@@ -1,0 +1,42 @@
+{
+  "group": "liaxlogasmp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "1": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "2": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "3": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "4": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "5": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "6": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "7": {
+      "item": "liaxlogasmp:senkingotblock"
+    },
+    "8": {
+      "item": "liaxlogasmp:senkingotblock"
+    }
+  },
+  "result": {
+    "item": "liaxlogasmp:senkocubo",
+    "count": 1
+  }
+}
