@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "liaxlogasmp:liaxcubo"
+    },
+    "title": {
+      "translate": "advancements.liaxcubologro.title"
+    },
+    "description": {
+      "translate": "advancements.liaxcubologro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "liaxcubologro": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

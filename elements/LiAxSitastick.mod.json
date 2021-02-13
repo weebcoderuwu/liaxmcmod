@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "liaxsita_pickackse",
+    "customModelName": "Normal",
+    "name": "LiAxsita pickaxe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 3.6,
+    "usageCount": 147,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}
