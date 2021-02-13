@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "liaxlogasmp:devourersong"
+    },
+    "title": {
+      "translate": "advancements.doglogro.title"
+    },
+    "description": {
+      "translate": "advancements.doglogro.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "doglogro": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "liaxlogasmp:liaxcubologro"
+}

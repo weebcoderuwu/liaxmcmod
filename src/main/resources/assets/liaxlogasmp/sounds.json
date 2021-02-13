@@ -1,1 +1,29 @@
-{}
+{
+  "dog_song": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "liaxlogasmp:erraria-alamity-od-usic-_-_-heme-of-evourer-of-ods-_inal-orm_",
+        "stream": false
+      }
+    ]
+  },
+  "se90": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "liaxlogasmp:ohn--90--t-rueno_-eo-pistea_-havi-",
+        "stream": false
+      }
+    ]
+  },
+  "jojoterias": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "liaxlogasmp:oo_s-izarre-dventure-olden-ind--_iorno_s-heme_-_l-vento-d_oro_-_ain-heme_",
+        "stream": false
+      }
+    ]
+  }
+}

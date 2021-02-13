@@ -328,10 +328,58 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Devourersong",
+      "type": "musicdisc",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Doglogro",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DevourersongItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "dog_song",
+      "file": "erraria-alamity-od-usic-_-_-heme-of-evourer-of-ods-_inal-orm_",
+      "category": "master"
+    },
+    {
+      "name": "se90",
+      "file": "ohn--90--t-rueno_-eo-pistea_-havi-",
+      "category": "master"
+    },
+    {
+      "name": "jojoterias",
+      "file": "oo_s-izarre-dventure-olden-ind--_iorno_s-heme_-_l-vento-d_oro_-_ain-heme_",
+      "category": "master"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.dashlands.name": "Dashlands Key",
@@ -341,8 +389,10 @@
       "advancements.quevos.descr": "instalaste este mod qqqqq",
       "advancements.senkorelogro.title": "el ore del dev del mod bruh",
       "advancements.senkocubologro.descr": "joder si que te has enpeñado en conseguirlo por que es jodido",
+      "item.devourersong.name": "universal colapse",
       "potion.effect.pesado": "Pesado",
       "item.senkocubo.name": "Senkocubo",
+      "item.record.devourersong.desc": "universal colapse - DM Dokuro",
       "effect.pesado": "efecto post paja",
       "advancements.senkorelogro.descr": "este si que es jodido en encontrar",
       "tile.liaxsitablock.name": "LiAxsita block",
@@ -351,10 +401,12 @@
       "tipped_arrow.effect.pesado": "Arrow of Pesado",
       "lingering_potion.effect.pesado": "Lingering Pesado",
       "item.liaxsitapickaxe.name": "LiAxsita pickaxe",
+      "advancements.doglogro.title": "calamity guy!",
       "tile.senkore.name": "Senkore",
       "tile.senkingotblock.name": "Senkingotblock",
       "item.senkingot.name": "Senkingot",
       "splash_potion.effect.pesado": "Splash Pesado",
+      "advancements.doglogro.descr": "ten el disco de musica del calamity",
       "advancements.bonjur.title": "Vienvenido a las dashlands",
       "advancements.latamout.title": "ESCAPO DE LATINOAMERICA!!!!!",
       "advancements.liaxcubologro.descr": "hiciste el cublo de liax :pes:",

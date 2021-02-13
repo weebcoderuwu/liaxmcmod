@@ -54,6 +54,11 @@ public class ElementsLiAxLoGasmp implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsLiAxLoGasmp() {
+		sounds.put(new ResourceLocation("liaxlogasmp", "dog_song"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("liaxlogasmp", "dog_song")));
+		sounds.put(new ResourceLocation("liaxlogasmp", "se90"), new net.minecraft.util.SoundEvent(new ResourceLocation("liaxlogasmp", "se90")));
+		sounds.put(new ResourceLocation("liaxlogasmp", "jojoterias"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("liaxlogasmp", "jojoterias")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

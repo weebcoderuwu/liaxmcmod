@@ -1,0 +1,20 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "gog1",
+    "name": "universal colapse",
+    "description": "universal colapse - DM Dokuro",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:dog_song"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "onCrafted": {
+      "name": "DevourersongItemIsCraftedsmelted"
+    }
+  }
+}
