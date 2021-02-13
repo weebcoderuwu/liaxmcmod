@@ -14,7 +14,7 @@ import java.util.Iterator;
 @ElementsLiAxLoGasmp.ModElement.Tag
 public class ProcedureBonjurPlayerLeavesDimension extends ElementsLiAxLoGasmp.ModElement {
 	public ProcedureBonjurPlayerLeavesDimension(ElementsLiAxLoGasmp instance) {
-		super(instance, 12);
+		super(instance, 15);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -25,7 +25,7 @@ public class ProcedureBonjurPlayerLeavesDimension extends ElementsLiAxLoGasmp.Mo
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityPlayerMP) {
 			Advancement _adv = ((MinecraftServer) ((EntityPlayerMP) entity).mcServer).getAdvancementManager()
-					.getAdvancement(new ResourceLocation("liaxlogasmp:byebyelogro"));
+					.getAdvancement(new ResourceLocation("liaxlogasmp:latamout"));
 			AdvancementProgress _ap = ((EntityPlayerMP) entity).getAdvancements().getProgress(_adv);
 			if (!_ap.isDone()) {
 				Iterator _iterator = _ap.getRemaningCriteria().iterator();

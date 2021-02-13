@@ -1,26 +1,26 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:command_block_minecart"
+      "item": "minecraft:command_block"
     },
     "title": {
-      "translate": "advancements.byebyelogro.title"
+      "translate": "advancements.latamout.title"
     },
     "description": {
-      "translate": "advancements.byebyelogro.descr"
+      "translate": "advancements.latamout.descr"
     },
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
-    "byebyelogro": {
+    "latamout": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 170
   },
   "parent": "liaxlogasmp:liaxcubologro"
 }

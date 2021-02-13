@@ -10,14 +10,18 @@
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 3,
+    "harvestLevel": 4,
     "efficiency": 7.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 5,
     "damageVsEntity": 4.0,
-    "usageCount": 147,
+    "usageCount": 900,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:LiAxsitaingot"
+      }
+    ]
   }
 }

@@ -14,7 +14,7 @@ import java.util.Iterator;
 @ElementsLiAxLoGasmp.ModElement.Tag
 public class ProcedureDashlandsPlayerEntersDimension extends ElementsLiAxLoGasmp.ModElement {
 	public ProcedureDashlandsPlayerEntersDimension(ElementsLiAxLoGasmp instance) {
-		super(instance, 11);
+		super(instance, 14);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "cube_35",
+    "texture": "image1",
     "customModelName": "Normal",
     "name": "Liaxcubo",
     "creativeTab": {
@@ -19,6 +19,9 @@
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [],
+    "onEntityHitWith": {
+      "name": "LiaxcuboMobIsHitWithTool"
+    },
     "onItemInInventoryTick": {
       "name": "LiaxcuboToolInInventoryTick"
     }

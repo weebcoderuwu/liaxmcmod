@@ -20,30 +20,30 @@ import java.util.Set;
 import java.util.HashMap;
 
 @ElementsLiAxLoGasmp.ModElement.Tag
-public class ItemLiAxSitastick extends ElementsLiAxLoGasmp.ModElement {
-	@GameRegistry.ObjectHolder("liaxlogasmp:liaxsitastick")
+public class ItemLIaxsitapickaxe extends ElementsLiAxLoGasmp.ModElement {
+	@GameRegistry.ObjectHolder("liaxlogasmp:liaxsitapickaxe")
 	public static final Item block = null;
-	public ItemLiAxSitastick(ElementsLiAxLoGasmp instance) {
-		super(instance, 2);
+	public ItemLIaxsitapickaxe(ElementsLiAxLoGasmp instance) {
+		super(instance, 13);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("LIAXSITASTICK", 3, 147, 7f, 0f, 2)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("LIAXSITAPICKAXE", 4, 900, 7f, 0f, 5)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 3);
+				ret.put("pickaxe", 4);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("liaxsitastick").setRegistryName("liaxsitastick").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("liaxsitapickaxe").setRegistryName("liaxsitapickaxe").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("liaxlogasmp:liaxsitastick", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("liaxlogasmp:liaxsitapickaxe", "inventory"));
 	}
 }

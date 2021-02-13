@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:air"
+      "item": "minecraft:repeating_command_block"
     },
     "title": {
       "translate": "advancements.bonjur.title"
@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.bonjur.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -20,7 +20,7 @@
     }
   },
   "rewards": {
-    "experience": 5
+    "experience": 10
   },
   "parent": "liaxlogasmp:liaxcubologro"
 }

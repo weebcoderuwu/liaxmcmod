@@ -1,5 +1,6 @@
 {
   "id_map": {
+    "DIMENSION": 1,
     "GUI": 1
   },
   "mod_elements": [
@@ -7,14 +8,6 @@
       "name": "LiAxSitaore",
       "type": "block",
       "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "LiAxSitastick",
-      "type": "tool",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -76,16 +69,6 @@
       }
     },
     {
-      "name": "Mesadeldasher",
-      "type": "gui",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 1
-      }
-    },
-    {
       "name": "LiAxSiTablock",
       "type": "block",
       "sortid": 7,
@@ -118,9 +101,17 @@
       "ids": {}
     },
     {
+      "name": "LIaxsitapickaxe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "Bonjur",
       "type": "achievement",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -128,7 +119,7 @@
     {
       "name": "DashlandsPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -142,9 +133,9 @@
       }
     },
     {
-      "name": "Byebyelogro",
+      "name": "Latamout",
       "type": "achievement",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -152,7 +143,7 @@
     {
       "name": "BonjurPlayerLeavesDimension",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -163,6 +154,27 @@
             "type": "entity"
           }
         ]
+      }
+    },
+    {
+      "name": "Dashlands",
+      "type": "dimension",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "LiaxcuboMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
       }
     }
   ],
@@ -171,18 +183,19 @@
   "language_map": {
     "en_us": {
       "tile.liaxsitablock.name": "LiAxsita block",
-      "advancements.bonjur.descr": "entra a los Dashlands",
+      "advancements.bonjur.descr": "entra en las dash lands",
+      "item.dashlands.name": "Dashlands Key",
       "advancements.quevos.title": "Quevos",
       "item.liaxcubo.name": "Liaxcubo",
       "item.liaxsitaingot.name": "LiAxsitaingot",
+      "item.liaxsitapickaxe.name": "LiAxsita pickaxe",
       "advancements.quevos.descr": "instalaste este mod qqqqq",
-      "advancements.byebyelogro.descr": "ESCAPASTE DE LATAM PIBE!!!!",
-      "advancements.bonjur.title": "Bonjur",
-      "item.liaxsitastick.name": "LiAxsita pickaxe",
+      "advancements.bonjur.title": "Vienvenido a las dashlands",
+      "advancements.latamout.title": "ESCAPO DE LATINOAMERICA!!!!!",
       "advancements.liaxcubologro.descr": "hiciste el cublo de liax :pes:",
+      "advancements.latamout.descr": "ESCAPO DE LATAM LOL!!!!!",
       "advancements.liaxcubologro.title": "Liaxcubo",
-      "tile.liaxsitaore.name": "Li Ax Sitaore",
-      "advancements.byebyelogro.title": "ESCAPAR DE LATINOAMERICA"
+      "tile.liaxsitaore.name": "Li Ax Sitaore"
     }
   },
   "workspaceSettings": {

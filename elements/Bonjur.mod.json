@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Bonjur",
-    "achievementDescription": "entra a los Dashlands",
+    "achievementName": "Vienvenido a las dashlands",
+    "achievementDescription": "entra en las dash lands",
     "achievementIcon": {
-      "value": "Blocks.BUBBLE_COLUMN"
+      "value": "Blocks.REPEATING_COMMAND_BLOCK"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -15,11 +15,11 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 5,
-    "achievementType": "task",
+    "rewardXP": 10,
+    "achievementType": "goal",
     "parent": {
       "value": "CUSTOM:Liaxcubologro"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"29\" y=\"51\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"38\" y=\"51\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

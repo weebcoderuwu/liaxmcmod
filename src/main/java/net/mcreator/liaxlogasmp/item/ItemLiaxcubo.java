@@ -21,6 +21,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.liaxlogasmp.procedure.ProcedureLiaxcuboToolInInventoryTick;
+import net.mcreator.liaxlogasmp.procedure.ProcedureLiaxcuboMobIsHitWithTool;
 import net.mcreator.liaxlogasmp.ElementsLiAxLoGasmp;
 
 import com.google.common.collect.Multimap;
@@ -36,6 +37,20 @@ public class ItemLiaxcubo extends ElementsLiAxLoGasmp.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
+			@Override
+			public boolean hitEntity(ItemStack itemstack, EntityLivingBase entity, EntityLivingBase entity2) {
+				super.hitEntity(itemstack, entity, entity2);
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				World world = entity.world;
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					ProcedureLiaxcuboMobIsHitWithTool.executeProcedure($_dependencies);
+				}
+				return true;
+			}
+
 			@Override
 			public void onUpdate(ItemStack itemstack, World world, Entity entity, int slot, boolean par5) {
 				super.onUpdate(itemstack, world, entity, slot, par5);
