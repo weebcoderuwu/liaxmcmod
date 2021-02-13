@@ -56,11 +56,11 @@ public class BlockLiAxSitaore extends ElementsLiAxLoGasmp.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 9; i++) {
+		for (int i = 0; i < 5; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(70) + 0;
+			int y = random.nextInt(50) + 0;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 9, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 5, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;

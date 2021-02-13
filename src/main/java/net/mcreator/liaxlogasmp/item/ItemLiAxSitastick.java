@@ -29,13 +29,13 @@ public class ItemLiAxSitastick extends ElementsLiAxLoGasmp.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("LIAXSITASTICK", 1, 147, 5f, -0.4f, 2)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("LIAXSITASTICK", 3, 147, 7f, 0f, 2)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 1);
+				ret.put("pickaxe", 3);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("liaxsitastick").setRegistryName("liaxsitastick").setCreativeTab(CreativeTabs.TOOLS));
