@@ -46,9 +46,9 @@ public class BlockSenkore extends ElementsLiAxLoGasmp.ModElement {
 			super(Material.ROCK);
 			setUnlocalizedName("senkore");
 			setSoundType(SoundType.STONE);
-			setHardness(3F);
-			setResistance(15F);
-			setLightLevel(0.1F);
+			setHardness(0.8999999999999999F);
+			setResistance(20F);
+			setLightLevel(1F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		}

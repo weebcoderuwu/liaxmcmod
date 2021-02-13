@@ -22,8 +22,8 @@
     "faceShape": "SOLID",
     "name": "Senkore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 15.0,
+    "hardness": 0.8999999999999999,
+    "resistance": 20.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
@@ -58,7 +58,7 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 0.09999999999999999,
+    "luminance": 1.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
@@ -87,9 +87,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
+    "frequencyPerChunks": 3,
     "frequencyOnChunk": 2,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 12
+    "maxGenerateHeight": 15
   }
 }
