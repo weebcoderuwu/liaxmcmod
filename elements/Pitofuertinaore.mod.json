@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Pitofuertina"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -80,20 +80,24 @@
     "onDestroyedByPlayer": {
       "name": "PitofuertinaoreBlockDestroyedByPlayer"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Dashlandsplanes"
-      }
+    "spawnWorldTypes": [
+      "CUSTOM:Dashlands"
     ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
       }
     ],
     "frequencyPerChunks": 5,
     "frequencyOnChunk": 7,
-    "minGenerateHeight": 0,
+    "minGenerateHeight": 1,
     "maxGenerateHeight": 37
   }
 }

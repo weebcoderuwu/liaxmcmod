@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "liaxlogasmp:romercubo"
+    },
+    "title": {
+      "translate": "advancements.romercubologro.title"
+    },
+    "description": {
+      "translate": "advancements.romercubologro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "romercubologro": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "liaxlogasmp:liaxcubologro"
+}

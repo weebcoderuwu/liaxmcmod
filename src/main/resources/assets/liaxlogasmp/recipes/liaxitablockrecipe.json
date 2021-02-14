@@ -1,0 +1,42 @@
+{
+  "group": "liaxlogasmp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "1": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "2": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "3": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "4": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "5": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "6": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "7": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    },
+    "8": {
+      "item": "liaxlogasmp:liaxsitaingot"
+    }
+  },
+  "result": {
+    "item": "liaxlogasmp:liaxsitablock",
+    "count": 1
+  }
+}

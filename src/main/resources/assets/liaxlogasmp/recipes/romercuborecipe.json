@@ -1,0 +1,42 @@
+{
+  "group": "liaxlogasmp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "1": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "2": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "3": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "4": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "5": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "6": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "7": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    },
+    "8": {
+      "item": "liaxlogasmp:pitofuertinablock"
+    }
+  },
+  "result": {
+    "item": "liaxlogasmp:romercubo",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ebp.net-resizeimage4",
+    "name": "C90 - ni chota quien la hizo again",
+    "description": "C90",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:se90"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

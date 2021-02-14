@@ -1,0 +1,42 @@
+{
+  "group": "liaxlogasmp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "1": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "2": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "3": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "4": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "5": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "6": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "7": {
+      "item": "liaxlogasmp:pitofuertina"
+    },
+    "8": {
+      "item": "liaxlogasmp:pitofuertina"
+    }
+  },
+  "result": {
+    "item": "liaxlogasmp:pitofuertinablock",
+    "count": 1
+  }
+}

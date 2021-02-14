@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liaxlogasmp:blocks/a",
+    "up": "liaxlogasmp:blocks/a",
+    "north": "liaxlogasmp:blocks/a",
+    "east": "liaxlogasmp:blocks/a",
+    "south": "liaxlogasmp:blocks/a",
+    "west": "liaxlogasmp:blocks/a",
+    "particle": "liaxlogasmp:blocks/a"
+  }
+}
