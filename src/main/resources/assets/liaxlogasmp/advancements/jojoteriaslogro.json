@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "liaxlogasmp:jojoterias"
+    },
+    "title": {
+      "translate": "advancements.jojoteriaslogro.title"
+    },
+    "description": {
+      "translate": "advancements.jojoteriaslogro.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jojoteriaslogro": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "liaxlogasmp:liaxcubologro"
+}

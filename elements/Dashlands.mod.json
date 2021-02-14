@@ -16,18 +16,15 @@
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "temptexture",
+    "texture": "dashlands_key",
     "portalTexture": "dashlads_portal_texture",
     "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "plains"
-      },
-      {
-        "value": "desert"
-      },
-      {
         "value": "jungle_edge"
+      },
+      {
+        "value": "CUSTOM:Dashlandsplanes"
       }
     ],
     "worldGenType": "Normal world gen",

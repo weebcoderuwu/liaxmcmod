@@ -1,6 +1,7 @@
 {
   "id_map": {
     "DIMENSION": 1,
+    "ENTITY": 2,
     "GUI": 1
   },
   "mod_elements": [
@@ -360,6 +361,97 @@
           }
         ]
       }
+    },
+    {
+      "name": "Jojoterias",
+      "type": "musicdisc",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jojoteriaslogro",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "JojoteriasItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dogrecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Penecraft",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dashlandsplanes",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jojofan",
+      "type": "mob",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "name": "Kokorita",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "JojofanEntityIsHurt",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -385,7 +477,9 @@
       "item.dashlands.name": "Dashlands Key",
       "item.liaxsitaingot.name": "LiAxsitaingot",
       "item.liaxcubo.name": "Liaxcubo",
+      "entity.jojofan.name": "Jojofan",
       "advancements.senkocubologro.title": "Senko cubo",
+      "item.record.jojoterias.desc": "enorabuena te gusta la pija",
       "advancements.quevos.descr": "instalaste este mod qqqqq",
       "advancements.senkorelogro.title": "el ore del dev del mod bruh",
       "advancements.senkocubologro.descr": "joder si que te has enpeñado en conseguirlo por que es jodido",
@@ -398,21 +492,25 @@
       "tile.liaxsitablock.name": "LiAxsita block",
       "advancements.bonjur.descr": "entra en las dash lands",
       "advancements.quevos.title": "Quevos",
+      "item.jojoterias.name": "il vento d oro - ni xuxa quien la hizo",
       "tipped_arrow.effect.pesado": "Arrow of Pesado",
       "lingering_potion.effect.pesado": "Lingering Pesado",
       "item.liaxsitapickaxe.name": "LiAxsita pickaxe",
       "advancements.doglogro.title": "calamity guy!",
       "tile.senkore.name": "Senkore",
+      "item.kokorita.name": "Kokorita",
       "tile.senkingotblock.name": "Senkingotblock",
       "item.senkingot.name": "Senkingot",
       "splash_potion.effect.pesado": "Splash Pesado",
       "advancements.doglogro.descr": "ten el disco de musica del calamity",
       "advancements.bonjur.title": "Vienvenido a las dashlands",
       "advancements.latamout.title": "ESCAPO DE LATINOAMERICA!!!!!",
+      "advancements.jojoteriaslogro.descr": "si eres guille ",
       "advancements.liaxcubologro.descr": "hiciste el cublo de liax :pes:",
       "advancements.latamout.descr": "ESCAPO DE LATAM LOL!!!!!",
       "advancements.liaxcubologro.title": "Liaxcubo",
-      "tile.liaxsitaore.name": "Li Ax Sitaore"
+      "tile.liaxsitaore.name": "Li Ax Sitaore",
+      "advancements.jojoteriaslogro.title": "Enorabuena!!! te gusta la pija"
     }
   },
   "workspaceSettings": {

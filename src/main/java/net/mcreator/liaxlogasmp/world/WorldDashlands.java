@@ -1092,8 +1092,8 @@ public class WorldDashlands extends ElementsLiAxLoGasmp.ModElement {
 	}
 
 	public static class GenLayerBiomesCustom extends GenLayer {
-		private Biome[] allowedBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("plains")),
-				Biome.REGISTRY.getObject(new ResourceLocation("desert")), Biome.REGISTRY.getObject(new ResourceLocation("jungle_edge")),};
+		private Biome[] allowedBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("jungle_edge")),
+				Biome.REGISTRY.getObject(new ResourceLocation("liaxlogasmp:dashlandsplanes")),};
 		public GenLayerBiomesCustom(long seed) {
 			super(seed);
 		}

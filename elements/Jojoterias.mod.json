@@ -1,0 +1,20 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ebp.net-resizeimage2",
+    "name": "il vento d oro - ni xuxa quien la hizo",
+    "description": "enorabuena te gusta la pija",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:jojoterias"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "onCrafted": {
+      "name": "JojoteriasItemIsCraftedsmelted"
+    }
+  }
+}
