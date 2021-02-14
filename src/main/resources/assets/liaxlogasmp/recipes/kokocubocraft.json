@@ -1,0 +1,42 @@
+{
+  "group": "liaxlogasmp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "liaxlogasmp:kokoritaingot"
+    },
+    "1": {
+      "item": "liaxlogasmp:kokoritablock"
+    },
+    "2": {
+      "item": "liaxlogasmp:kokoritaingot"
+    },
+    "3": {
+      "item": "liaxlogasmp:kokoritablock"
+    },
+    "4": {
+      "item": "liaxlogasmp:kokorita"
+    },
+    "5": {
+      "item": "liaxlogasmp:kokoritablock"
+    },
+    "6": {
+      "item": "liaxlogasmp:kokoritaingot"
+    },
+    "7": {
+      "item": "liaxlogasmp:kokoritablock"
+    },
+    "8": {
+      "item": "liaxlogasmp:kokoritaingot"
+    }
+  },
+  "result": {
+    "item": "liaxlogasmp:kokocubo",
+    "count": 1
+  }
+}

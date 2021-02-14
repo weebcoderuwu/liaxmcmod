@@ -32,6 +32,7 @@ import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
 import net.mcreator.liaxlogasmp.procedure.ProcedureJojofanEntityIsHurt;
+import net.mcreator.liaxlogasmp.procedure.ProcedureJojofanEntityDies;
 import net.mcreator.liaxlogasmp.item.ItemKokorita;
 import net.mcreator.liaxlogasmp.ElementsLiAxLoGasmp;
 
@@ -137,22 +138,38 @@ public class EntityJojofan extends ElementsLiAxLoGasmp.ModElement {
 			}
 			if (source.getImmediateSource() instanceof EntityPotion)
 				return false;
+			if (source == DamageSource.CACTUS)
+				return false;
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
 		}
 
 		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureJojofanEntityDies.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		protected void applyEntityAttributes() {
 			super.applyEntityAttributes();
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3D);
+				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(10D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(30D);
+				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(100D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(5D);
+				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(9D);
 		}
 	}
 }

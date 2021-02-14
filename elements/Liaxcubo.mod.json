@@ -5,9 +5,9 @@
     "renderType": 0,
     "texture": "image1",
     "customModelName": "Normal",
-    "name": "Liaxcubo",
+    "name": "Liax cubo",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
     "toolType": "MultiTool",
     "harvestLevel": 1,
@@ -24,6 +24,9 @@
     },
     "onItemInInventoryTick": {
       "name": "LiaxcuboToolInInventoryTick"
+    },
+    "onItemInUseTick": {
+      "name": "LiaxcuboToolInHandTick"
     }
   }
 }

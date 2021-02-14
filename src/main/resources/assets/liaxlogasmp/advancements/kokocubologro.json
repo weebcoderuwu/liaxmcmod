@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "liaxlogasmp:kokocubo"
+    },
+    "title": {
+      "translate": "advancements.kokocubologro.title"
+    },
+    "description": {
+      "translate": "advancements.kokocubologro.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kokocubologro": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "liaxlogasmp:liaxcubologro"
+}

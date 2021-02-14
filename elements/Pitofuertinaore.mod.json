@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "senkore",
-    "textureTop": "senkore",
-    "textureLeft": "senkore",
-    "textureFront": "senkore",
-    "textureRight": "senkore",
-    "textureBack": "senkore",
+    "texture": "pitofuertina_ore",
+    "textureTop": "pitofuertina_ore",
+    "textureLeft": "pitofuertina_ore",
+    "textureFront": "pitofuertina_ore",
+    "textureRight": "pitofuertina_ore",
+    "textureBack": "pitofuertina_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,10 +20,10 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Senkore",
+    "name": "Pitofuertina ore",
     "specialInfo": [],
-    "hardness": 0.8999999999999999,
-    "resistance": 20.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
@@ -58,12 +58,12 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 1.0,
+    "luminance": 0.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CRIT"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -78,7 +78,7 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "onDestroyedByPlayer": {
-      "name": "SenkoreBlockDestroyedByPlayer"
+      "name": "PitofuertinaoreBlockDestroyedByPlayer"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [
@@ -91,9 +91,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 7,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 15
+    "maxGenerateHeight": 37
   }
 }

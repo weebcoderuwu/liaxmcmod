@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "99% en future funk momento",
+    "achievementDescription": "cuando programo esto todavia ni lo hizo pero me apuesto el cueto a que morira ahi",
+    "achievementIcon": {
+      "value": "CUSTOM:Kokocubo"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:Liaxcubologro"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"38\" y=\"60\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

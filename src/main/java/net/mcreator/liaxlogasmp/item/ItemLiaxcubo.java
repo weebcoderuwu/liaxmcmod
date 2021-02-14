@@ -21,6 +21,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.liaxlogasmp.procedure.ProcedureLiaxcuboToolInInventoryTick;
+import net.mcreator.liaxlogasmp.procedure.ProcedureLiaxcuboToolInHandTick;
 import net.mcreator.liaxlogasmp.procedure.ProcedureLiaxcuboMobIsHitWithTool;
 import net.mcreator.liaxlogasmp.ElementsLiAxLoGasmp;
 
@@ -57,6 +58,11 @@ public class ItemLiaxcubo extends ElementsLiAxLoGasmp.ModElement {
 				int x = (int) entity.posX;
 				int y = (int) entity.posY;
 				int z = (int) entity.posZ;
+				if (entity instanceof EntityLivingBase && ((EntityLivingBase) entity).getHeldItemMainhand().equals(itemstack)) {
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("entity", entity);
+					ProcedureLiaxcuboToolInHandTick.executeProcedure($_dependencies);
+				}
 				{
 					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 					$_dependencies.put("entity", entity);
@@ -69,7 +75,7 @@ public class ItemLiaxcubo extends ElementsLiAxLoGasmp.ModElement {
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-		}.setUnlocalizedName("liaxcubo").setRegistryName("liaxcubo").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("liaxcubo").setRegistryName("liaxcubo").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
 	@SideOnly(Side.CLIENT)

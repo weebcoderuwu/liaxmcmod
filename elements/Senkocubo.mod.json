@@ -3,13 +3,13 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "sennkocubo_fix",
+    "texture": "ebp.net-resizeimage",
     "customModelName": "Normal",
-    "name": "Senkocubo",
+    "name": "Senkoc ubo",
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
+    "toolType": "MultiTool",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,

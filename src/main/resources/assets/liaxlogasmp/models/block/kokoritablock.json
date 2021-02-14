@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liaxlogasmp:blocks/kokoritablock",
+    "up": "liaxlogasmp:blocks/kokoritablock",
+    "north": "liaxlogasmp:blocks/kokoritablock",
+    "east": "liaxlogasmp:blocks/kokoritablock",
+    "south": "liaxlogasmp:blocks/kokoritablock",
+    "west": "liaxlogasmp:blocks/kokoritablock",
+    "particle": "liaxlogasmp:blocks/kokoritablock"
+  }
+}

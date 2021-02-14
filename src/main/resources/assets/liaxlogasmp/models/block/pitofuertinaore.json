@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liaxlogasmp:blocks/pitofuertina_ore",
+    "up": "liaxlogasmp:blocks/pitofuertina_ore",
+    "north": "liaxlogasmp:blocks/pitofuertina_ore",
+    "east": "liaxlogasmp:blocks/pitofuertina_ore",
+    "south": "liaxlogasmp:blocks/pitofuertina_ore",
+    "west": "liaxlogasmp:blocks/pitofuertina_ore",
+    "particle": "liaxlogasmp:blocks/pitofuertina_ore"
+  }
+}

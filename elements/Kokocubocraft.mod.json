@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Kokoritaingot"
+      },
+      {
+        "value": "CUSTOM:Kokoritablock"
+      },
+      {
+        "value": "CUSTOM:Kokoritaingot"
+      },
+      {
+        "value": "CUSTOM:Kokoritablock"
+      },
+      {
+        "value": "CUSTOM:Kokorita"
+      },
+      {
+        "value": "CUSTOM:Kokoritablock"
+      },
+      {
+        "value": "CUSTOM:Kokoritaingot"
+      },
+      {
+        "value": "CUSTOM:Kokoritablock"
+      },
+      {
+        "value": "CUSTOM:Kokoritaingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Kokocubo"
+    },
+    "name": "kokocubocraft",
+    "namespace": "mod"
+  }
+}

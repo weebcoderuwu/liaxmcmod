@@ -9,7 +9,7 @@
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 3.0,
+    "armorBaseValue": 10.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -13312,
@@ -45,10 +45,10 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "ILLAGER",
-    "attackStrength": 5,
+    "attackStrength": 9,
     "movementSpeed": 0.3,
     "trackingRange": 64,
-    "health": 30,
+    "health": 100,
     "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
@@ -59,7 +59,7 @@
     "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
-    "immuneToCactus": false,
+    "immuneToCactus": true,
     "immuneToDrowning": false,
     "immuneToLightning": true,
     "immuneToPotions": true,
@@ -84,6 +84,9 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
+    "whenMobDies": {
+      "name": "JojofanEntityDies"
+    },
     "whenMobIsHurt": {
       "name": "JojofanEntityIsHurt"
     },

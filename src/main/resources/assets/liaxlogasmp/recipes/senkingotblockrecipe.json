@@ -1,0 +1,42 @@
+{
+  "group": "liaxlogasmp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "1": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "2": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "3": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "4": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "5": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "6": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "7": {
+      "item": "liaxlogasmp:senkingot"
+    },
+    "8": {
+      "item": "liaxlogasmp:senkingot"
+    }
+  },
+  "result": {
+    "item": "liaxlogasmp:senkingotblock",
+    "count": 1
+  }
+}
